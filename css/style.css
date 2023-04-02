@@ -400,12 +400,12 @@ ul.email li a i span {
 
 .dream .read_more {
      border: none;
-     background: #d5d6fd;
-     color: #fff;
+     background: #43eee4;
+     color: #0c0958;
 }
 
 .dream .read_more:hover {
-     background: #43eee4;
+     background: #d7d7ec;
      color: #fff;
 }
 
@@ -1061,3 +1061,5 @@ ul.conta li a {
  
   
     
+
+
