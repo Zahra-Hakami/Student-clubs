@@ -100,7 +100,7 @@
                            <li data-target="#banner1" data-slide-to="2"></li>
                         </ol>
                         <div class="carousel-inner">
-                           <!-- first slide -->
+                          <!-- first slide -->
                            <div class="carousel-item active">
                               <div class="carousel-caption relative">
                                  <div class="row">
@@ -212,30 +212,64 @@
                      <h2>الأندية الأكثر  <span class="blue_light">تفاعلاً </span></h2>
                      <p> القائمة يتم تحديثها اسبوعياً
                      </p>
+                     <br>
+                     
+<div class ="flex-container"> 
+  
+ 
+                     <div class="roww">
+
+                        
+                      
+                      
+                       <div class="columnn">
+                          <div class="cardd">
+                            <img src="images/Star.png" width="90" height="90"> <br>
+                            <a class="" style="font-size: 20px; color: black;"> نادي كلية التصميم </a>
+                            <p>جامعة جازان</p>
+                      
+                          </div>
+                        </div>
+
+
+
+                        <a href="C-JUclub.html"> <div class="columnn">
+                           <div class="cardd">
+                             <img src="images/Star.png" width="90" height="90"> <br>
+                             <a href="C-JUclub.html" style="font-size: 20px;"> نادي كلية الحاسب الالي </a>
+                            <a href="C-JUclub.html"><p>جامعة جازان</p></a> 
+                       
+                           </div>
+                         </div></a>
+
+
+                         <a href="C-JUclub.html"> <div class="columnn">
+                           <div class="cardd">
+                             <img src="images/Star.png" width="90" height="90"> <br>
+                             <a href="C-JUclub.html" style="font-size: 20px;"> نادي كلية الحاسب الالي </a>
+                            <a href="C-JUclub.html"><p>جامعة جازان</p></a> 
+                       
+                           </div>
+                         </div></a>
+                      
+                      
+                      
+                        <div class="columnn">
+                          <div class="cardd">
+                            <img src="images/Star.png" width="90" height="90"> <br>
+                            <a class="" style="font-size: 20px; color: black;"> نادي كلية الحاسب الالي </a>
+                            <p>جامعة جازان</p>
+                      
+                          </div>
+                        </div></div>
+                      
+                      </div></center>
                   </div>
                </div>
             </div>
          </div>
       </div>
-      <center ><table style="text-align:center" >
-         <tr>
-         <th style="text-align: center;"> <center><img src="images/2.png" alt="second place" width="125" height="125" text-align="center"></center></th><th> &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; </th><th> &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; </th><th> &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; </th>
-         <th style="text-align: center;"><center><img src="images/1.png" alt="first place" width="150" height="150"text-align="center"></center></th><th> &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; </th><th> &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; </th><th> &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; </th>
-         <th style="text-align: center;"><center><img src="images/3.png" alt="thered place" width="100" height="100"text-align="center"></center></th><th> &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; </th><th> &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; </th><th> &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; </th>
-         </tr>
-         &nbsp;&nbsp;&nbsp;&nbsp;
-         <tr>
-         <th><center><a class="read_moreee">نادي كلية التصميم</a></center></th> <th></th><th> &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; </th><th> &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; </th>
-         <th><center><a class="read_moreee" href="C-JUclub.html">  نادي الحاسب و الامن السيبراني </a></center></th><th></th><th> &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; </th><th> &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; </th>
-         <th><center><a class="read_moreee">نادي مهارات المستقبل</a></center></th><th></th><th> &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; </th><th> &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; </th>
-         </tr>
-         &nbsp;&nbsp;&nbsp;&nbsp;
-         <tr>
-            <th style="text-align: center;"><center>جامعة جازان </center></th><th></th><th> &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; </th><th> &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; </th>
-            <th style="text-align: center;"><center>جامعة جازان </center></th><th></th><th> &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; </th><th> &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; </th>
-            <th style="text-align: center;"><center>جامعة جازان </center></th><th></th><th> &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; </th><th> &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; </th>
-         </tr>
-         </table></center>
+      
       <!-- end guarantee -->
 
        <!-- contact -->
@@ -268,7 +302,33 @@
          </div>
       </div>
 
+      <script src="https://kit.fontawesome.com/d8bd919f93.js" crossorigin="anonymous"></script>
+
       
+      <button class="open-button"onclick="openForm()"><img src="images/support.png" height="80" width="80"> </button>
+      
+      <div class="chat-popup" id="myForm">
+        <form action="/action_page.php" class="form-container">
+         <i class="fa-solid fa-chalkboard-user"></i> <h3 >بوت المساعدة </h3>
+      
+          <label for="msg"></label>
+          <textarea placeholder="كيف يمكن لي ان اخدمك ؟ " name="msg" required></textarea>
+      
+          <button type="submit" class="btn">ارسال </button>
+          <button type="button" class="btn cancel" onclick="closeForm()">اغلاق </button>
+        </form>
+      </div></div></div>
+
+
+
+
+
+
+
+
+     
+
+
       <!--  footer -->
       <footer>
          <div class="footer">

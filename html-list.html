@@ -1,27 +1,107 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Personalized Recommendations Form</title>
+    <title>Student Assistant</title>
+    <style>
+      /* Style the calendar and to-do list */
+      table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+
+      th, td {
+        text-align: left;
+        padding: 8px;
+        border-bottom: 1px solid #ddd;
+      }
+
+      th {
+        background-color: #4CAF50;
+        color: white;
+      }
+
+      .todo {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      .todo li {
+        margin-bottom: 10px;
+        font-size: 18px;
+      }
+
+      .todo li.done {
+        text-decoration: line-through;
+        color: gray;
+      }
+    </style>
   </head>
   <body>
-    <h1>Personalized Recommendations Form</h1>
-    <form id="recommendations-form">
-      <label for="name">Name:</label>
-      <input type="text" id="name" name="name" required><br>
-
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email" required><br>
-
-      <label for="interests">Interests:</label>
-      <input type="text" id="interests" name="interests" required><br>
-
-      <label for="academic-background">Academic Background:</label>
-      <textarea id="academic-background" name="academic-background" rows="5" cols="40" required></textarea><br>
-
-      <label for="career-goals">Career Goals:</label>
-      <textarea id="career-goals" name="career-goals" rows="5" cols="40" required></textarea><br>
-
-      <input type="submit" value="Submit">
-    </form>
+    <h1>Student Assistant</h1>
+    <h2>Calendar</h2>
+    <table>
+      <tr>
+        <th>Monday</th>
+        <th>Tuesday</th>
+        <th>Wednesday</th>
+        <th>Thursday</th>
+        <th>Friday</th>
+        <th>Saturday</th>
+        <th>Sunday</th>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>6</td>
+        <td>7</td>
+        <td>8</td>
+        <td>9</td>
+        <td>10</td>
+        <td>11</td>
+        <td>12</td>
+      </tr>
+      <tr>
+        <td>13</td>
+        <td>14</td>
+        <td>15</td>
+        <td>16</td>
+        <td>17</td>
+        <td>18</td>
+        <td>19</td>
+      </tr>
+      <tr>
+        <td>20</td>
+        <td>21</td>
+        <td>22</td>
+        <td>23</td>
+        <td>24</td>
+        <td>25</td>
+        <td>26</td>
+      </tr>
+      <tr>
+        <td>27</td>
+        <td>28</td>
+        <td>29</td>
+        <td>30</td>
+        <td>31</td>
+        <td></td>
+        <td></td>
+      </tr>
+    </table>
+    <h2>To-Do List</h2>
+    <ul class="todo">
+      <li>Complete math homework</li>
+      <li class="done">Submit English essay</li>
+      <li>Study for biology exam</li>
+      <li>Meet with career advisor</li>
+    </ul>
   </body>
 </html>

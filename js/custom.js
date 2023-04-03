@@ -149,3 +149,13 @@ function getURL() { window.location.href; } var protocol = location.protocol; $.
         }, 200);
       }
     });
+
+
+
+    function openForm() {
+      document.getElementById("myForm").style.display = "block";
+    }
+    
+    function closeForm() {
+      document.getElementById("myForm").style.display = "none";
+    }

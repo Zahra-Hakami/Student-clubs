@@ -372,7 +372,7 @@ ul.email li a i span {
 /** banner section **/
 
 .full_bg {
-     background: url(../images/banner2.png);
+     background: url("background.jpge");
      background-size: cover;
      background-position: center;
      background-repeat: no-repeat;
@@ -932,7 +932,7 @@ ul.conta li a {
 
 .read_moree {
      font-size: 17px;
-     background-color: #43eee4;
+     background-color: #2e3192;
      color: #fff;
      width: 100%;
      max-width: 100px;
@@ -947,8 +947,8 @@ ul.conta li a {
 }
 
 .read_moree:hover {
-     background: #2e3192;
-     color: #fff;
+     background: #43eee4;
+     color: #22074e;
      transition: ease-in all 0.5s;
 }
 
@@ -1061,5 +1061,147 @@ ul.conta li a {
  
   
     
+
+
+   
+   * {
+     box-sizing: border-box;
+   }
+   
+   body {
+     font-family: Arial, Helvetica, sans-serif;
+   }
+   
+   /* Float four columns side by side */
+   .columnn {
+     float: left;
+     width: 25%;
+     padding: 0 10px;
+     flex-direction: column;
+   }
+   .flex-container {
+     display: flexbox;
+   }
+   /* Remove extra left and right margins, due to padding in columns */
+   .roww {margin: 0 -5px;}
+   
+   /* Clear floats after the columns */
+   .roww:after {
+     content: "";
+     display: table;
+     clear: both;
+   }
+   
+   /* Style the counter cards */
+   .cardd {
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+     padding: 16px;
+     text-align: center;
+     background-color: #f1f1f1;
+   }
+   
+   /* Responsive columns - one column layout (vertical) on small screens */
+   @media screen and (max-width: 600px) {
+     .columnn {
+       width: 100%;
+       display: block;
+       margin-bottom: 20px;
+     }
+   }
+   
+
+
+
+
+
+
+   * {box-sizing: border-box;}
+
+body {background:#ffffff;font-family: Roboto;color:#efdefe;}
+h3{line-height:0rem;}
+
+
+
+
+/* Button used to open the chat form - fixed at the bottom of the page */
+.open-button {
+  padding:8px 4px;
+  background-color: #2e3192;
+  color: white;
+  font-size:17px;
+  max-width:300px;
+  border-radius:20px;
+  border: none;
+  cursor: pointer;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;  
+}
+
+/* The popup chat - hidden by default */
+.chat-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  z-index: 9;
+ 
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  border-radius:20px;
+  background-color: white;
+  color:#777;
+}
+
+/* Full-width textarea */
+.form-container textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  border-radius:20px;
+  background: #ddd;
+  resize: none;
+  min-height: 200px;
+  color:#777;
+}
+
+/* When the textarea gets focus, do something */
+.form-container textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/send button */
+.form-container .btn {
+  background-color:#2e3192;
+  color: white;
+   font-size:17px;
+  padding: 10px 20px;
+  border: none;
+  border-radius:20px;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: #2e3192;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+opacity: 0.8;
+}
+
+
+
+
+
 
 
