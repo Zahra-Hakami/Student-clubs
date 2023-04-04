@@ -1,0 +1,128 @@
+
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Calendar and To-Do List</title>
+    <link rel="stylesheet" href="stylee.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="calendar">
+        <img src="âPngtreeâcalendar time monthly calendar chart_5324170.png" alt="Calendar Icon">
+        <h1>Calendar</h1>
+        <!-- Insert calendar code here -->
+      </div>
+      <div class="todo-list">
+        <h1>To-Do List</h1>
+        <ul>
+          <li>
+            <input type="checkbox" id="todo-item-1" />
+            <label for="todo-item-1">Task 1</label>
+          </li>
+          <li>
+            <input type="checkbox" id="todo-item-2" />
+            <label for="todo-item-2">Task 2</label>
+          </li>
+          <li>
+            <input type="checkbox" id="todo-item-3" />
+            <label for="todo-item-3">Task 3</label>
+          </li>
+        </ul>
+      </div>
+      <div class="virtual-assistant">
+        <h1>Virtual Assistant</h1>
+        <p>What can I help you with?</p>
+        <input type="text" id="user-input" />
+        <button id="submit-btn">Submit</button>
+        <div id="response"></div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
+
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Calendar and To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="calendar">
+        <h1>Calendar</h1>
+        <table>
+          <thead>
+            <tr>
+              <th colspan="7" class="month-year">
+                <span class="prev-month">&#8592;</span>
+                <span class="month">April</span>
+                <span class="year">2023</span>
+                <span class="next-month">&#8594;</span>
+              </th>
+            </tr>
+            <tr>
+              <th class="day">Sun</th>
+              <th class="day">Mon</th>
+              <th class="day">Tue</th>
+              <th class="day">Wed</th>
+              <th class="day">Thu</th>
+              <th class="day">Fri</th>
+              <th class="day">Sat</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="date prev-month">29</td>
+              <td class="date prev-month">30</td>
+              <td class="date prev-month">31</td>
+              <td class="date">1</td>
+              <td class="date">2</td>
+              <td class="date">3</td>
+              <td class="date">4</td>
+            </tr>
+            <tr>
+              <td class="date">5</td>
+              <td class="date">6</td>
+              <td class="date">7</td>
+              <td class="date">8</td>
+              <td class="date">9</td>
+              <td class="date">10</td>
+              <td class="date">11</td>
+            </tr>
+            <tr>
+              <td class="date">12</td>
+              <td class="date">13</td>
+              <td class="date">14</td>
+              <td class="date">15</td>
+              <td class="date">16</td>
+              <td class="date">17</td>
+              <td class="date">18</td>
+            </tr>
+            <tr>
+              <td class="date">19</td>
+              <td class="date">20</td>
+              <td class="date">21</td>
+              <td class="date">22</td>
+              <td class="date">23</td>
+              <td class="date">24</td>
+              <td class="date">25</td>
+            </tr>
+            <tr>
+              <td class="date">26</td>
+              <td class="date">27</td>
+              <td class="date">28</td>
+              <td class="date">29</td>
+              <td class="date">30</td>
+              <td class="date next-month">1</td>
+              <td class="date next-month">2</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="todo-list">
+        <h1>To-Do List</h1>
+        <ul>
+          <li>
+            <input type="checkbox" id="todo-item-1" />
+            <label for="todo

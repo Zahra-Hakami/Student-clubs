@@ -1,0 +1,126 @@
+input[type="text"], button {
+    background: none;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    outline: none;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+  }
+  
+  input[type="text"]:focus, button:focus {
+    outline: none;
+  }
+  
+  input[type="text"] {
+    border: 2px solid #fff;
+    margin-right: 10px;
+  }
+  
+  button {
+    background-color: #3d7ea6;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #275a7d;
+  }
+  
+  .container {
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .calendar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .calendar h1 {
+    font-size: 48px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .calendar img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .todo-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .todo-list h1 {
+    font-size: 48px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .todo-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .todo-list li {
+    margin-bottom: 10px;
+  }
+  
+  .todo-list input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .todo-list label {
+    font-size: 24px;
+    color: #fff;
+  }
+  
+  .virtual-assistant {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .virtual-assistant h1 {
+    font-size: 48px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .virtual-assistant p {
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 10px;
+  }
+  
+  #user-input {
+    width: 300px;
+  }
+  
+  #response {
+    font-size: 24px;
+    color: #fff;
+    margin-top: 20px;
+  }
+  
