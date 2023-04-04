@@ -159,3 +159,43 @@ function getURL() { window.location.href; } var protocol = location.protocol; $.
     function closeForm() {
       document.getElementById("myForm").style.display = "none";
     }
+
+
+
+
+//Get form inputs
+const interest = document.getElementById("interest").value;
+const academicBackground = document.getElementById("academic-background").value;
+const careerGoals = document.getElementById("career-goals").value;
+
+//Initialize recommendations array
+let recommendations = [];
+
+//Analyze data to generate recommendations
+if (interest === "technology" && academicBackground === "computer-science" && careerGoals === "software-engineering") {
+  recommendations.push("Join the Computer Science Club and consider a major in Computer Science at MIT or Stanford");
+} else if (interest === "medicine" && academicBackground === "biology" && careerGoals === "medical-doctor") {
+  recommendations.push("Join the Biology Club and consider a major in Biology at Harvard or Johns Hopkins");
+} else if (interest === "business" && academicBackground === "economics" && careerGoals === "entrepreneurship") {
+  recommendations.push("Join the Economics Club and consider a major in Business Administration at Wharton or Harvard");
+} else {
+  recommendations.push("No recommendations found for your inputs. Please try again.");
+}
+
+//Display recommendations on separate page or in popup window
+if (recommendations.length > 0) {
+  const recommendationList = document.createElement("ul");
+  recommendations.forEach((recommendation) => {
+    const recommendationItem = document.createElement("li");
+    const recommendationText = document.createTextNode(recommendation);
+    recommendationItem.appendChild(recommendationText);
+    recommendationList.appendChild(recommendationItem);
+  });
+  const recommendationsContainer = document.getElementById("recommendations-container");
+  recommendationsContainer.appendChild(recommendationList);
+} else {
+  alert("No recommendations found for your inputs. Please try again.");
+}
+
+
+    
