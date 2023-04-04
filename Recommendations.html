@@ -67,7 +67,13 @@
                         <li class="nav-item">
                            <a class="nav-link" href="hosting.html"> الفعاليات </a>
                         </li>
+
+                        <li class="nav-item">
+                           <a class="nav-link" href="to do .html"> قائمة المهام </a>
+                        </li>
                        
+
+
                         <li class="nav-item">
                            <a class="nav-link" href="contact.html"> تواصل معنا </a>
                         </li>
@@ -121,6 +127,21 @@
                </div>
             </div>
             <!-- contact -->
+            
+      <button class="open-button"onclick="openForm()"><img src="images/support.png" height="80" width="80"> </button>
+      
+      <div class="chat-popup" id="myForm">
+        <form action="/action_page.php" class="form-container">
+         <i class="fa-solid fa-chalkboard-user"></i> <h3 >بوت المساعدة </h3>
+      
+          <label for="msg"></label>
+          <textarea placeholder="كيف يمكن لي ان اخدمك ؟ " name="msg" required></textarea>
+      
+          <button type="submit" class="btn">ارسال </button>
+          <button type="button" class="btn cancel" onclick="closeForm()">اغلاق </button>
+        </form>
+      </div></div></div>
+
             <!--  footer -->
             <footer>
                <div class="footer">
