@@ -990,8 +990,8 @@ ul.conta li a {
      transition: ease-in all 0.5s;
      font-weight: 500;
      border-radius: 80px;
-     height: 50px;
-     line-height: 50px;
+     height: 30px;
+     line-height: 30px;
      text-transform: uppercase;
 }
 
@@ -1402,3 +1402,8 @@ opacity: 0.8;
    .recommendation-form input[type="submit"]:hover {
      background-color: #45a049;
    }
+
+
+
+
+   
